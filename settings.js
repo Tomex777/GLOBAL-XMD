@@ -12,7 +12,7 @@ const chalk = require('chalk');
 
 global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',').map(v => v.trim()) : ['2347078272937'];
 
-global.packname = process.env.PACKNAME || 'BOT';
+global.packname = process.env.PACKNAME || 'TOMEX BOT';
 global.author = process.env.AUTHOR || '𝙏𝞗𝞛𝞢𝞦⁩☻️';
 global.botname = process.env.BOT_NAME || 'TOMEX BOT';
 global.listprefix = process.env.PREFIX ? process.env.PREFIX.split(',') : ['+','!','.'];
