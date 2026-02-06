@@ -10,7 +10,7 @@ const chalk = require('chalk');
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
 
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',').map(v => v.trim()) : ['2347078272937'];
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',').map(v => v.trim()) : ['2348064790531'];
 
 global.packname = process.env.PACKNAME || 'TOMEX BOT';
 global.author = process.env.AUTHOR || '𝙏𝞗𝞛𝞢𝞦⁩☻️';
