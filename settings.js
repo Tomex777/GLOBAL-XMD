@@ -10,11 +10,11 @@ const chalk = require('chalk');
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
 
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',').map(v => v.trim()) : ['923204566005'];
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',').map(v => v.trim()) : ['2347078272937'];
 
 global.packname = process.env.PACKNAME || 'BOT';
-global.author = process.env.AUTHOR || 'GlobalTechInfo';
-global.botname = process.env.BOT_NAME || 'GLOBAL-XMD';
+global.author = process.env.AUTHOR || '𝙏𝞗𝞛𝞢𝞦⁩☻️';
+global.botname = process.env.BOT_NAME || 'TOMEX BOT';
 global.listprefix = process.env.PREFIX ? process.env.PREFIX.split(',') : ['+','!','.'];
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆'];
 
@@ -24,12 +24,7 @@ global.timezone = process.env.TIME_ZONE || 'UTC'
 global.pairing_code = process.env.PAIRING_CODE !== 'false';
 global.number_bot = process.env.BOT_NUMBER || '';
 
-global.my = {
-	yt: process.env.MY_YOUTUBE || 'https://youtube.com/@GlobalTechInfo',
-	gh: process.env.MY_GITHUB || 'https://github.com/GlobalTechInfo',
-	gc: process.env.MY_GROUP || 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
-	ch: process.env.MY_CHANNEL || '120363319098372999@newsletter'
-}
+
 global.limit = {
 	free: 100,
 	premium: 999,
